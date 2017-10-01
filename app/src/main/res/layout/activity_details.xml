@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.admin.weekend5assigment.DetailsActivity">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/tv_formatted_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_formatted_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_open_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_price_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <android.support.v4.view.ViewPager
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/viewPager1ager1">
+        </android.support.v4.view.ViewPager>
+        <Button
+            android:onClick="OpenGoogleMaps"
+            android:id="@+id/btn_to_maps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigate with Google Maps" />
+    </LinearLayout>
+</ScrollView>

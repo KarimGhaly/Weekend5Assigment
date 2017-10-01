@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/findHospital"
+        android:title="Hospital"/>
+    <item android:id="@+id/findBank"
+        android:title="Bank"/>
+    <item android:id="@+id/findCafe"
+        android:title="Cafe"/>
+    <item android:id="@+id/findRestaurant"
+        android:title="Restaurant"/>
+    <item android:id="@+id/findBar"
+        android:title="Bar"/>
+</menu>
